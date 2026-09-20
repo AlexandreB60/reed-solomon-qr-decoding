@@ -17,7 +17,7 @@ Source code, identifiers and comments are in French.
 ```bash
 pip install numpy matplotlib
 python demo.py      # the demonstration above
-python test.py      # the test suite (aboute 30 seconds)
+python test.py      # the test suite (about 30 seconds)
 ```
 
 ## How it works
@@ -50,7 +50,7 @@ It is not used by the decoder, and cannot be: radix-2 requires a primitive $2^k$
 ## Known limitations
 
 - The `t` parameter of the decoder must be an upper bound on the actual number of errors, and must not exceed the capacity of the code. Beyond that, decoding returns an incorrect word without reporting it.
-- The number of errors is assumed to be known and passed as a parameter. Determining it from the syndromes alone would require and additional algorithm, which is not implemented here. 
+- The number of errors is assumed to be known and passed as a parameter. Determining it from the syndromes alone would require an additional algorithm, which is not implemented here. 
 - The transforms run in $O(n^2)$: the powers of the root are precomputed, but the algorithm remains the direct definition.
 
 ## Code organisation 
