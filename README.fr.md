@@ -46,7 +46,7 @@ GF(256)\* est cyclique d'ordre 255, engendré par $\alpha = X$. Tout élément n
 
 ### Pourquoi la FFT radix-2 ne s'applique pas ici
 
-Le module `fft_radix2.py` implémente un Cooley-Tukey classique, validé sur $\mathbb{F}_{17}$. Il n'est pas utilisé par le décodeur, et ne peut pas l'être : le radix-2 exige une racine primitive $2^k$-ième de l'unité, or GF(256)\* est d'ordre 255, impair, donc aucun de ses éléments n'a un ordre pair. 
+Le module `fft_radix2.py` implémente un Cooley-Tukey classique, validé sur GF(17). Il n'est pas utilisé par le décodeur, et ne peut pas l'être : le radix-2 exige une racine primitive $2^k$-ième de l'unité, or GF(256)\* est d'ordre 255, impair, donc aucun de ses éléments n'a un ordre pair. 
 
 ## Limites connues
 
@@ -71,7 +71,7 @@ Modifications apportées au code de mes coéquipiers lors de la fusion des versi
 
 ## Tests
 
-`test.py` vérifie l'aller-retour des transformées, la coïncidence entre la FFT radix-2 et la DFT sur $\mathbb{F}_{17}$ et le décodage de 0 à 8 erreurs à positions aléatoires - avec `t` égal au nombre d'erreurs comme avec `t` majorant.
+`test.py` vérifie l'aller-retour des transformées, la coïncidence entre la FFT radix-2 et la DFT sur GF(17) et le décodage de 0 à 8 erreurs à positions aléatoires - avec `t` égal au nombre d'erreurs comme avec `t` majorant.
 
 ## Références
 
