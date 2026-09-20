@@ -75,7 +75,7 @@ Changes made to my teammates' code when merging the versions: the construction o
 ## References
 
 [1] PANTCHICHKINE, ALEXEI: Cryptologie, Sécurité et Codage d'Information: (2004)  
-[2] DEMAZURE, MICHEL: Cours d'algèbre: primalité, divisibilité, codes : (1997)  
+[2] DEMAZURE, MICHEL: Cours d'algèbre: primalité, divisibilité, codes: (1997)  
 [3] REED, IRVING STOY & SOLOMON, GUSTAVE: Polynomial codes over certain finite fields: (1960)  
 [4] PEYRE, GABRIEL: L'algèbre discrète de la transformée de Fourier: niveau M1.: (2004)  
 [5] THE INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS: ReedSolomon Codes and Their Applications: (1994)  
