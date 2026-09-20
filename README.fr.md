@@ -39,7 +39,7 @@ $$S_j =\sum_{l=1}^{\nu} e_l \, X_l^{\, j}, \qquad X_l = \alpha^{i_l}$$
 Ces composantes ne dépendent que de l'erreur, pas du mot de code émis :
 c'est ce qui permet de localiser les erreurs sans connaître le message 
 d'origine. On en déduit le polynôme localisateur $\sigma$ en résolvant un système linéaire, on prolonge la transformée de Fourier de l'erreur par la récurrence associée à $\sigma$, puis on applique la transformée inverse.  
-Lorsque le nombre d'erreurs est strictement inférieur  à `t`, la matrice du système est singulière. La résolution se fait donc en renvoyant une solution particulière en fixant les inconnues libres à zéro.
+Lorsque le nombre d'erreurs est strictement inférieur à `t`, la matrice du système est singulière. La résolution se fait donc en renvoyant une solution particulière en fixant les inconnues libres à zéro.
 
 ### Arithmétique par tables de logarithmes
 
