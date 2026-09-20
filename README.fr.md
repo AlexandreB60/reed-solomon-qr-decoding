@@ -1,4 +1,4 @@
-A French-language project. The code implements Reed-Solomon decoding over GF(256) for QR code error correction. 
+ *[English version](README.md)*
 
 # Génération de QR codes et décodage en cas de dégradation
 
