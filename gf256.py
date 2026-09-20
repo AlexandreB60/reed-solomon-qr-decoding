@@ -26,6 +26,6 @@ K = F256
 X_n = monome_poly(F256,un(F256),n)
 Q = somme_poly(F256,[moins_un(F256)],X_n)       # X**n - 1
 
-F256_n = ["Anneau",[2],[P,alpha],[Q]]                       # F256/(X**n - 1)
+F256_n = ["Anneau",[2],[P,alpha, table_p, table_l, nb],[Q]]                       # F256/(X**n - 1)
 K_n = F256_n
 
